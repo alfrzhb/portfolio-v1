@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "last_updated": "2026-06-16",
+    "language": "id-ID",
+    "map_id": "alfarizi_plaza",
+    "description": "Collision rectangles for Alfarizi Plaza. Coordinates use top-left origin."
+  },
+  "settings": {
+    "world_width": 1600,
+    "world_height": 900,
+    "collision_mode": "rect",
+    "player_hitbox": {
+      "width": 28,
+      "height": 18,
+      "offset_x": -14,
+      "offset_y": -18
+    }
+  },
+  "bounds": [
+    {
+      "id": "map_top_bound",
+      "type": "rect",
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 24
+    },
+    {
+      "id": "map_bottom_bound",
+      "type": "rect",
+      "x": 0,
+      "y": 876,
+      "width": 1600,
+      "height": 24
+    },
+    {
+      "id": "map_left_bound",
+      "type": "rect",
+      "x": 0,
+      "y": 0,
+      "width": 24,
+      "height": 900
+    },
+    {
+      "id": "map_right_bound",
+      "type": "rect",
+      "x": 1576,
+      "y": 0,
+      "width": 24,
+      "height": 900
+    }
+  ],
+  "colliders": [
+    {
+      "id": "collision_project_lab",
+      "target_id": "building_project_lab",
+      "type": "rect",
+      "x": 85,
+      "y": 115,
+      "width": 330,
+      "height": 185,
+      "blocking": true
+    },
+    {
+      "id": "collision_skill_center",
+      "target_id": "building_skill_center",
+      "type": "rect",
+      "x": 1185,
+      "y": 115,
+      "width": 330,
+      "height": 185,
+      "blocking": true
+    },
+    {
+      "id": "collision_campus_hall",
+      "target_id": "building_campus_hall",
+      "type": "rect",
+      "x": 205,
+      "y": 395,
+      "width": 330,
+      "height": 185,
+      "blocking": true
+    },
+    {
+      "id": "collision_career_office",
+      "target_id": "building_career_office",
+      "type": "rect",
+      "x": 1065,
+      "y": 395,
+      "width": 330,
+      "height": 185,
+      "blocking": true
+    },
+    {
+      "id": "collision_organization_base",
+      "target_id": "building_organization_base",
+      "type": "rect",
+      "x": 205,
+      "y": 630,
+      "width": 330,
+      "height": 175,
+      "blocking": true
+    },
+    {
+      "id": "collision_achievement_arena",
+      "target_id": "building_achievement_arena",
+      "type": "rect",
+      "x": 1065,
+      "y": 630,
+      "width": 330,
+      "height": 175,
+      "blocking": true
+    },
+    {
+      "id": "collision_contact_corner",
+      "target_id": "building_contact_gate",
+      "type": "rect",
+      "x": 620,
+      "y": 765,
+      "width": 360,
+      "height": 105,
+      "blocking": true
+    },
+    {
+      "id": "collision_statue_alfarizi",
+      "target_id": "statue_alfarizi",
+      "type": "rect",
+      "x": 730,
+      "y": 165,
+      "width": 140,
+      "height": 140,
+      "blocking": true
+    },
+    {
+      "id": "collision_prasasti_alfarizi",
+      "target_id": "prasasti_alfarizi",
+      "type": "rect",
+      "x": 760,
+      "y": 320,
+      "width": 80,
+      "height": 55,
+      "blocking": true
+    },
+    {
+      "id": "collision_npc_father",
+      "target_id": "npc_father",
+      "type": "rect",
+      "x": 514,
+      "y": 195,
+      "width": 42,
+      "height": 22,
+      "blocking": true
+    },
+    {
+      "id": "collision_npc_mother_hijab",
+      "target_id": "npc_mother_hijab",
+      "type": "rect",
+      "x": 564,
+      "y": 195,
+      "width": 42,
+      "height": 22,
+      "blocking": true
+    },
+    {
+      "id": "collision_npc_pak_nurrochman",
+      "target_id": "npc_pak_nurrochman",
+      "type": "rect",
+      "x": 1049,
+      "y": 205,
+      "width": 42,
+      "height": 22,
+      "blocking": true
+    },
+    {
+      "id": "collision_npc_older_brother",
+      "target_id": "npc_older_brother",
+      "type": "rect",
+      "x": 589,
+      "y": 340,
+      "width": 42,
+      "height": 22,
+      "blocking": true
+    },
+    {
+      "id": "collision_npc_zhafran",
+      "target_id": "npc_zhafran",
+      "type": "rect",
+      "x": 684,
+      "y": 415,
+      "width": 42,
+      "height": 22,
+      "blocking": true
+    },
+    {
+      "id": "collision_npc_thofa",
+      "target_id": "npc_thofa",
+      "type": "rect",
+      "x": 744,
+      "y": 415,
+      "width": 42,
+      "height": 22,
+      "blocking": true
+    },
+    {
+      "id": "collision_npc_girlfriend_hijab",
+      "target_id": "npc_girlfriend_hijab",
+      "type": "rect",
+      "x": 969,
+      "y": 395,
+      "width": 42,
+      "height": 22,
+      "blocking": true
+    }
+  ]
+}

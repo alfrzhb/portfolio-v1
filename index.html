@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Alfarizi Plaza, an interactive pixel RPG portfolio."
+    />
+    <title>Alfarizi Plaza</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <main class="game-shell" aria-label="Alfarizi Plaza game shell">
+      <section class="game-frame" aria-label="Game area">
+        <canvas
+          id="gameCanvas"
+          class="game-canvas"
+          width="1600"
+          height="900"
+          aria-label="Alfarizi Plaza canvas"
+        ></canvas>
+
+        <div class="ui-layer" aria-live="polite">
+          <div class="status-panel">
+            <span class="status-title">Alfarizi Plaza</span>
+            <span class="status-text">Interactive Portfolio</span>
+          </div>
+
+          <div class="control-hint" aria-label="Controls">
+            <span><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> Move</span>
+            <span><kbd>F</kbd> Interact</span>
+          </div>
+        </div>
+
+        <div id="modalRoot" class="modal-overlay" hidden>
+          <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" type="button" aria-label="Close modal" data-modal-close>
+              X
+            </button>
+            <header class="modal-header">
+              <h2 id="modalTitle" data-modal-title>Portfolio</h2>
+              <p data-modal-description></p>
+            </header>
+            <div class="modal-content" data-modal-content></div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script src="src/js/main.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "version": "1.2.0",
+    "last_updated": "2026-06-16",
+    "language": "id-ID",
+    "section_id": "achievement_arena",
+    "section_asset": "assets/building/building_achievement_arena.png",
+    "source_note": "Achievement data is focused on competition awards only. Bootcamps are handled in education.json, while internships are handled in professional.json."
+  },
+  "title": "Achievement Arena",
+  "description": "Area untuk menampilkan penghargaan kompetisi dan pencapaian utama.",
+  "items": [
+    {
+      "id": "tech_for_ummah_ki_ptkin_2025_3rd_winner",
+      "name": "3rd Winner - Mini Hackathon: Tech For Ummah",
+      "type": "Competition Award",
+      "event": "Mini Hackathon: Tech For Ummah, KI-PTKIN 2025",
+      "rank": "3rd Winner",
+      "year": "2025",
+      "period": "Jul 2025",
+      "project": "UsStuck",
+      "category": "Edutech / Future Learning",
+      "description": "Won 3rd place through UsStuck, a web-based Islamic Q&A chatbot designed to help Gen Z users ask sensitive or socially uncomfortable questions about Islam in a private, non-judgmental interface.",
+      "problem": "Some Gen Z users may feel hesitant to ask sensitive or socially uncomfortable questions about Islam directly, especially around topics such as tauhid and fiqh.",
+      "solution": "UsStuck provides a more approachable digital interface for Islamic Q&A, reducing barriers to asking questions and supporting future learning through edutech.",
+      "highlights": [
+        "Developed UsStuck as a web-based Islamic Q&A chatbot.",
+        "Focused on helping Gen Z users ask sensitive religious questions in a private and non-judgmental interface.",
+        "Positioned the project in the edutech and future learning category.",
+        "Won 3rd place at Mini Hackathon: Tech For Ummah, KI-PTKIN 2025."
+      ],
+      "related_project": "usstuck",
+      "certificate_label": "View Certificate",
+      "certificate_url": "assets/docs/tech_for_ummah_ki_ptkin_2025_certificate.pdf",
+      "certificate_preview": "assets/images/tech_for_ummah_ki_ptkin_2025_certificate.png",
+      "links": {
+        "certificate": "assets/docs/tech_for_ummah_ki_ptkin_2025_certificate.pdf",
+        "preview": "assets/images/tech_for_ummah_ki_ptkin_2025_certificate.png",
+        "project": null,
+        "documentation": null
+      },
+      "highlight": true
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "version": "1.1.0",
+    "last_updated": "2026-06-16",
+    "language": "id-ID",
+    "section_id": "organization_base",
+    "section_asset": "assets/building/building_organization_base.png",
+    "source_note": "Updated based on the latest CV data and local organization image asset."
+  },
+  "title": "Organization Base",
+  "description": "Area untuk menampilkan pengalaman organisasi dan kepanitiaan.",
+  "items": [
+    {
+      "id": "hmit_co_leader",
+      "role": "Co-leader of HMIT",
+      "organization": "Himpunan Mahasiswa Informatika",
+      "period": "Jan 2024 - Jan 2025",
+      "type": "Student Organization",
+      "image": "assets/images/hmps.png",
+      "description": "Coordinated cross-division activities and managed internal-external organizational communication within Himpunan Mahasiswa Informatika.",
+      "highlights": [
+        "Coordinated cross-division activities and managed internal-external organizational communication.",
+        "Led team meetings, planned academic events, and represented the organization to faculty and partners."
+      ]
+    },
+    {
+      "id": "scit_leader",
+      "role": "Leader of SCIT",
+      "organization": "Study Club Informatika UIN Sunan Kalijaga",
+      "period": "Jan 2024 - Jan 2025",
+      "type": "Study Club",
+      "image": null,
+      "description": "Led a student technology learning community and organized study sessions, coding workshops, and peer-learning activities.",
+      "highlights": [
+        "Led a student technology learning community and organized weekly study sessions and coding workshops.",
+        "Facilitated peer collaboration through project-based learning and discussions on algorithms, web, and mobile development."
+      ]
+    }
+  ]
+}

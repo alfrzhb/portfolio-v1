@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "version": "1.1.0",
+    "last_updated": "2026-06-16",
+    "language": "id-ID",
+    "section_id": "career_office",
+    "section_asset": "assets/building/building_career_office.png",
+    "source_note": "Updated based on the latest CV data."
+  },
+  "title": "Career Office",
+  "description": "Area untuk menampilkan pengalaman profesional, internship, dan arah karier.",
+  "career_focus": {
+    "target_roles": [
+      "Full Stack Developer",
+      "Mobile Developer",
+      "Android/Kotlin Developer"
+    ],
+    "summary": "Interested in building user-centered digital products through web, mobile, and system development, with focus on clean implementation, responsive UI, RESTful API integration, and maintainable software workflow."
+  },
+  "items": [
+    {
+      "id": "intern_programmer_295_solution",
+      "role": "Intern Programmer",
+      "organization": "295 Solution",
+      "period": "Nov 2025 - Apr 2026",
+      "type": "Internship",
+      "category": "Web Maintenance, Requirement Analysis, and System Support",
+      "context": "Worked in a technology solution company environment involving WordPress website maintenance, internal CRM & ACM planning, and C# gate parking system requirement analysis.",
+      "description": "Supported company website maintenance and internal system development planning, including CRM, ACM, and gate parking system needs.",
+      "highlights": [
+        "Improved and maintained the company WordPress website by updating page structure, visual presentation, and content/UI quality.",
+        "Supported requirement analysis and development planning for internal CRM & ACM systems and a C#-based gate parking system."
+      ],
+      "related_projects": [
+        "crm_295_solution",
+        "acm_295_solution"
+      ],
+      "skills_used": [
+        "WordPress",
+        "Requirement Analysis",
+        "UI Maintenance",
+        "System Planning",
+        "C# Requirement Analysis",
+        "CRM Workflow",
+        "ACM Workflow"
+      ],
+      "links": {
+        "company": null,
+        "certificate": null,
+        "project": null
+      }
+    },
+    {
+      "id": "web_developer_intern_wesclic",
+      "role": "Web Developer Intern",
+      "organization": "Wesclic",
+      "period": "Aug 2025 - Nov 2025",
+      "type": "Internship",
+      "category": "Web Development",
+      "context": "Worked on web application development tasks using Next.js, React.js, Laravel, and Agile Scrum workflow.",
+      "description": "Contributed to web application maintenance and UI implementation by fixing bugs in React/Next.js applications and implementing responsive interfaces in Laravel-based pages.",
+      "highlights": [
+        "Fixed bugs in Next.js and React.js applications within an Agile Scrum development workflow.",
+        "Implemented responsive UI designs into Laravel-based web pages."
+      ],
+      "related_projects": [],
+      "skills_used": [
+        "Next.js",
+        "React.js",
+        "Laravel",
+        "Responsive UI",
+        "Bug Fixing",
+        "Agile Scrum",
+        "Web Development"
+      ],
+      "links": {
+        "company": null,
+        "certificate": null,
+        "project": null
+      }
+    }
+  ]
+}

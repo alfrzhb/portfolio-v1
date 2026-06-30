@@ -1,0 +1,336 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "last_updated": "2026-06-16",
+    "language": "id-ID",
+    "map_id": "alfarizi_plaza",
+    "description": "Interaction definitions for NPCs, buildings, readable objects, CV modal, and certificate modal triggers."
+  },
+  "settings": {
+    "default_key": "F",
+    "default_range": 80,
+    "show_prompt_when_near": true
+  },
+  "prompt_assets": {
+    "talk": "assets/ui/interaction_talk.png",
+    "read": "assets/ui/interaction_read.png",
+    "interact": "assets/ui/interaction_interact.png"
+  },
+  "ui_assets": {
+    "dialog_box": "assets/ui/ui_dialog_box.png",
+    "dialog_nameplate": "assets/ui/ui_dialog_nameplate.png",
+    "dialog_arrow": "assets/ui/ui_dialog_arrow.png",
+    "modal_panel": "assets/ui/ui_modal_panel.png",
+    "button_default": "assets/ui/ui_button_default.png",
+    "close_button": "assets/ui/ui_close_button.png",
+    "certificate_frame": "assets/ui/ui_certificate_frame.png",
+    "cv_scroll": "assets/objects/contact_gate/object_cv_scroll.png"
+  },
+  "interactions": [
+    {
+      "id": "talk_father",
+      "target_id": "npc_father",
+      "label": "Talk to Father",
+      "type": "talk",
+      "key": "F",
+      "range": 75,
+      "prompt_asset": "assets/ui/interaction_talk.png",
+      "position": {
+        "x": 535,
+        "y": 215
+      },
+      "action": {
+        "type": "dialog",
+        "data_source": "assets/data/npc_dialogs.json",
+        "npc_id": "npc_father"
+      }
+    },
+    {
+      "id": "talk_mother_hijab",
+      "target_id": "npc_mother_hijab",
+      "label": "Talk to Mother",
+      "type": "talk",
+      "key": "F",
+      "range": 75,
+      "prompt_asset": "assets/ui/interaction_talk.png",
+      "position": {
+        "x": 585,
+        "y": 215
+      },
+      "action": {
+        "type": "dialog",
+        "data_source": "assets/data/npc_dialogs.json",
+        "npc_id": "npc_mother_hijab"
+      }
+    },
+    {
+      "id": "talk_older_brother",
+      "target_id": "npc_older_brother",
+      "label": "Talk to Older Brother",
+      "type": "talk",
+      "key": "F",
+      "range": 75,
+      "prompt_asset": "assets/ui/interaction_talk.png",
+      "position": {
+        "x": 610,
+        "y": 360
+      },
+      "action": {
+        "type": "dialog",
+        "data_source": "assets/data/npc_dialogs.json",
+        "npc_id": "npc_older_brother"
+      }
+    },
+    {
+      "id": "talk_girlfriend_hijab",
+      "target_id": "npc_girlfriend_hijab",
+      "label": "Talk to Girlfriend",
+      "type": "talk",
+      "key": "F",
+      "range": 75,
+      "prompt_asset": "assets/ui/interaction_talk.png",
+      "position": {
+        "x": 990,
+        "y": 415
+      },
+      "action": {
+        "type": "dialog",
+        "data_source": "assets/data/npc_dialogs.json",
+        "npc_id": "npc_girlfriend_hijab"
+      }
+    },
+    {
+      "id": "talk_pak_nurrochman",
+      "target_id": "npc_pak_nurrochman",
+      "label": "Talk to Pak Nurrochman",
+      "type": "talk",
+      "key": "F",
+      "range": 75,
+      "prompt_asset": "assets/ui/interaction_talk.png",
+      "position": {
+        "x": 1070,
+        "y": 225
+      },
+      "action": {
+        "type": "dialog",
+        "data_source": "assets/data/npc_dialogs.json",
+        "npc_id": "npc_pak_nurrochman"
+      }
+    },
+    {
+      "id": "talk_zhafran",
+      "target_id": "npc_zhafran",
+      "label": "Talk to Zhafran",
+      "type": "talk",
+      "key": "F",
+      "range": 75,
+      "prompt_asset": "assets/ui/interaction_talk.png",
+      "position": {
+        "x": 705,
+        "y": 435
+      },
+      "action": {
+        "type": "dialog",
+        "data_source": "assets/data/npc_dialogs.json",
+        "npc_id": "npc_zhafran"
+      }
+    },
+    {
+      "id": "talk_thofa",
+      "target_id": "npc_thofa",
+      "label": "Talk to Thofa",
+      "type": "talk",
+      "key": "F",
+      "range": 75,
+      "prompt_asset": "assets/ui/interaction_talk.png",
+      "position": {
+        "x": 765,
+        "y": 435
+      },
+      "action": {
+        "type": "dialog",
+        "data_source": "assets/data/npc_dialogs.json",
+        "npc_id": "npc_thofa"
+      }
+    },
+    {
+      "id": "interact_project_lab",
+      "target_id": "building_project_lab",
+      "label": "Open Project Lab",
+      "type": "interact",
+      "key": "F",
+      "range": 95,
+      "prompt_asset": "assets/ui/interaction_interact.png",
+      "position": {
+        "x": 250,
+        "y": 320
+      },
+      "action": {
+        "type": "modal",
+        "modal_type": "project_list",
+        "title": "Project Lab",
+        "data_source": "assets/data/projects.json"
+      }
+    },
+    {
+      "id": "interact_skill_center",
+      "target_id": "building_skill_center",
+      "label": "Open Skill Center",
+      "type": "interact",
+      "key": "F",
+      "range": 95,
+      "prompt_asset": "assets/ui/interaction_interact.png",
+      "position": {
+        "x": 1350,
+        "y": 320
+      },
+      "action": {
+        "type": "modal",
+        "modal_type": "skill_list",
+        "title": "Skill Center",
+        "data_source": "assets/data/skills.json"
+      }
+    },
+    {
+      "id": "interact_campus_hall",
+      "target_id": "building_campus_hall",
+      "label": "Open Campus Hall",
+      "type": "interact",
+      "key": "F",
+      "range": 95,
+      "prompt_asset": "assets/ui/interaction_interact.png",
+      "position": {
+        "x": 370,
+        "y": 600
+      },
+      "action": {
+        "type": "modal",
+        "modal_type": "education_list",
+        "title": "Campus Hall",
+        "data_source": "assets/data/education.json"
+      }
+    },
+    {
+      "id": "interact_career_office",
+      "target_id": "building_career_office",
+      "label": "Open Career Office",
+      "type": "interact",
+      "key": "F",
+      "range": 95,
+      "prompt_asset": "assets/ui/interaction_interact.png",
+      "position": {
+        "x": 1230,
+        "y": 600
+      },
+      "action": {
+        "type": "modal",
+        "modal_type": "professional_list",
+        "title": "Career Office",
+        "data_source": "assets/data/professional.json"
+      }
+    },
+    {
+      "id": "interact_organization_base",
+      "target_id": "building_organization_base",
+      "label": "Open Organization Base",
+      "type": "interact",
+      "key": "F",
+      "range": 95,
+      "prompt_asset": "assets/ui/interaction_interact.png",
+      "position": {
+        "x": 370,
+        "y": 820
+      },
+      "action": {
+        "type": "modal",
+        "modal_type": "organization_list",
+        "title": "Organization Base",
+        "data_source": "assets/data/organization.json"
+      }
+    },
+    {
+      "id": "interact_achievement_arena",
+      "target_id": "building_achievement_arena",
+      "label": "Open Achievement Arena",
+      "type": "interact",
+      "key": "F",
+      "range": 95,
+      "prompt_asset": "assets/ui/interaction_interact.png",
+      "position": {
+        "x": 1230,
+        "y": 820
+      },
+      "action": {
+        "type": "modal",
+        "modal_type": "achievement_list",
+        "title": "Achievement Arena",
+        "data_source": "assets/data/achievements.json",
+        "certificate_frame": "assets/ui/ui_certificate_frame.png"
+      }
+    },
+    {
+      "id": "interact_contact_corner",
+      "target_id": "building_contact_gate",
+      "label": "Open Contact Corner",
+      "type": "interact",
+      "key": "F",
+      "range": 95,
+      "prompt_asset": "assets/ui/interaction_interact.png",
+      "position": {
+        "x": 800,
+        "y": 860
+      },
+      "action": {
+        "type": "modal",
+        "modal_type": "contact_list",
+        "title": "Contact Corner",
+        "data_source": "assets/data/contact.json",
+        "cv_data_source": "assets/data/cv.json",
+        "cv_scroll_asset": "assets/objects/contact_gate/object_cv_scroll.png"
+      }
+    },
+    {
+      "id": "interact_statue_alfarizi",
+      "target_id": "statue_alfarizi",
+      "label": "Read Statue",
+      "type": "read",
+      "key": "F",
+      "range": 85,
+      "prompt_asset": "assets/ui/interaction_read.png",
+      "position": {
+        "x": 800,
+        "y": 275
+      },
+      "action": {
+        "type": "dialog",
+        "speaker": "Statue of Alfarizi",
+        "dialogues": [
+          "A statue that marks the center of Alfarizi Plaza.",
+          "This plaza represents the journey of Muhammad Alfarizi Habibullah through projects, education, skills, experience, organization, achievements, and contact."
+        ]
+      }
+    },
+    {
+      "id": "interact_prasasti_alfarizi",
+      "target_id": "prasasti_alfarizi",
+      "label": "Read Prasasti",
+      "type": "read",
+      "key": "F",
+      "range": 75,
+      "prompt_asset": "assets/ui/interaction_read.png",
+      "position": {
+        "x": 800,
+        "y": 350
+      },
+      "action": {
+        "type": "dialog",
+        "speaker": "Prasasti",
+        "dialogues": [
+          "Muhammad Alfarizi Habibullah",
+          "Informatics Student at UIN Sunan Kalijaga.",
+          "Interested in mobile development, full stack development, and user-centered digital products."
+        ]
+      }
+    }
+  ]
+}

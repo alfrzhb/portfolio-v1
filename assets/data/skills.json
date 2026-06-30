@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "last_updated": "2026-06-16",
+    "language": "id-ID",
+    "section_id": "skill_center",
+    "section_asset": "assets/building/building_skill_center.png"
+  },
+  "title": "Skill Center",
+  "description": "Area untuk menampilkan kemampuan teknis utama.",
+  "groups": [
+    {
+      "category": "Mobile Development",
+      "skills": [
+        {
+          "name": "Kotlin",
+          "level": "Intermediate",
+          "notes": "Main mobile development focus."
+        },
+        {
+          "name": "Android Development",
+          "level": "Intermediate",
+          "notes": "Experience with Activity, Fragment, navigation components, and app architecture basics."
+        },
+        {
+          "name": "ViewModel & LiveData",
+          "level": "Intermediate",
+          "notes": "Used in Android project architecture."
+        }
+      ]
+    },
+    {
+      "category": "Web & Backend",
+      "skills": [
+        {
+          "name": "Web Development",
+          "level": "Intermediate",
+          "notes": "Used for portfolio, chatbot, and thesis-related system workflows."
+        },
+        {
+          "name": "Backend API",
+          "level": "Basic-Intermediate",
+          "notes": "Relevant to thesis system architecture."
+        },
+        {
+          "name": "REST API Integration",
+          "level": "Intermediate",
+          "notes": "Used in Android and web-related projects."
+        }
+      ]
+    },
+    {
+      "category": "Database & SQL",
+      "skills": [
+        {
+          "name": "MySQL",
+          "level": "Intermediate",
+          "notes": "Used as main DDL optimization target in final project."
+        },
+        {
+          "name": "DDL Analysis",
+          "level": "Intermediate",
+          "notes": "Focused on schema structure, constraints, indexes, and SQL validation workflow."
+        }
+      ]
+    },
+    {
+      "category": "Tools & Engineering",
+      "skills": [
+        {
+          "name": "Git & GitHub",
+          "level": "Intermediate",
+          "notes": "Version control and project collaboration."
+        },
+        {
+          "name": "Docker",
+          "level": "Basic-Intermediate",
+          "notes": "Used conceptually and technically for sandbox validation in thesis system."
+        },
+        {
+          "name": "Software Engineering Workflow",
+          "level": "Intermediate",
+          "notes": "Planning, design, coding, testing, and release workflow."
+        }
+      ]
+    }
+  ],
+  "certification_learning": [
+    "Dicoding: Pemula Android",
+    "Dicoding: Kotlin Dasar",
+    "Dicoding: Git & GitHub",
+    "Dicoding: Programming Logic 101",
+    "Dicoding: Dasar Pemrograman",
+    "Dicoding: Prinsip SOLID"
+  ]
+}

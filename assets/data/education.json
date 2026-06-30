@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "version": "1.2.0",
+    "last_updated": "2026-06-16",
+    "language": "id-ID",
+    "section_id": "campus_hall",
+    "section_asset": "assets/building/building_campus_hall.png",
+    "source_note": "Updated based on the latest CV data and local certificate files."
+  },
+  "title": "Campus Hall",
+  "description": "Area untuk menampilkan latar pendidikan formal, program pembelajaran, dan pengembangan akademik.",
+  "items": [
+    {
+      "id": "uin_sunan_kalijaga_informatics",
+      "institution": "UIN Sunan Kalijaga Yogyakarta",
+      "faculty": "Faculty of Science and Technology",
+      "program": "S1 Informatics",
+      "degree": "Undergraduate",
+      "period": "2022 - 2026",
+      "gpa": "3.73 / 4.00",
+      "type": "Formal Education",
+      "focus": [
+        "Operating Systems",
+        "Computer Security",
+        "Artificial Intelligence",
+        "Algorithm Theory",
+        "Programming",
+        "Database Design",
+        "Software Development",
+        "Human-Computer Interaction"
+      ],
+      "description": "Undergraduate Informatics study at UIN Sunan Kalijaga Yogyakarta with academic focus on software engineering, database design, artificial intelligence, and user-centered system development.",
+      "highlights": [
+        "Built a foundation in operating systems, computer security, artificial intelligence, algorithm theory, programming, and database design.",
+        "Completed academic software projects involving software development, database modeling, and human-computer interaction.",
+        "Developed a web-based thesis project for MySQL DDL optimization using Gemini API, featuring structured schema analysis, AI-generated recommendations, suggestion review, SQL diff preview, Docker Sandbox validation, AI self-correction, and downloadable optimized SQL output."
+      ],
+      "related_project": "thesis_ddl_optimizer"
+    },
+    {
+      "id": "coding_camp_dbs_fullstack",
+      "institution": "Coding Camp powered by DBS Foundation",
+      "program": "Front-End & Back-End Developer",
+      "type": "Bootcamp / Independent Study",
+      "period": "Feb 2025 - Jul 2025",
+      "certificate_label": "View Certificate",
+      "certificate_url": "assets/docs/cert_coding_camp.pdf",
+      "certificate_preview": "assets/images/cert_coding_camp.png",
+      "description": "A full-stack web development learning program covering front-end, back-end, RESTful API development, deployment workflow, and capstone project implementation.",
+      "focus": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Git",
+        "GitHub",
+        "Node.js",
+        "RESTful APIs",
+        "Web APIs",
+        "PWA",
+        "Deployment Workflow",
+        "Front-End Development",
+        "Back-End Development"
+      ],
+      "highlights": [
+        "Completed a full-stack web development learning path covering HTML, CSS, JavaScript, Git/GitHub, Node.js, RESTful APIs, and Web APIs.",
+        "Built responsive front-end applications using browser storage, asynchronous JavaScript, accessibility principles, PWA concepts, and deployment workflows.",
+        "Developed back-end applications in the form of RESTful APIs and completed a capstone project applying integrated front-end/back-end development practices."
+      ],
+      "links": {
+        "certificate": "assets/docs/cert_coding_camp.pdf",
+        "preview": "assets/images/cert_coding_camp.png"
+      }
+    },
+    {
+      "id": "bangkit_mobile_development",
+      "institution": "Bangkit led by Google",
+      "program": "Mobile Development Cohort",
+      "type": "Bootcamp / Independent Study",
+      "period": "Sep 2024 - Dec 2024",
+      "certificate_label": "View Certificate",
+      "certificate_url": "assets/docs/cert_bangkit.pdf",
+      "certificate_preview": "assets/images/cert_bangkit.png",
+      "description": "A mobile development learning program focused on Kotlin, Android application development, AI fundamentals, applied machine learning, and final/capstone project development.",
+      "focus": [
+        "Basic Kotlin",
+        "Beginner Android",
+        "Android Fundamental",
+        "Intermediate Android",
+        "Artificial Intelligence",
+        "Applied Machine Learning for Android Developer",
+        "Firebase",
+        "Jetpack Compose",
+        "Android Testing",
+        "Mobile Product Development"
+      ],
+      "highlights": [
+        "Completed the Mobile Development path covering Basic Kotlin, Beginner Android, Android Fundamental, Intermediate Android, AI, and Applied Machine Learning for Android Developer.",
+        "Built Android applications using Kotlin and Android Studio with Android components, UI, localization, background processing, media, sensors, location, database, testing, Firebase, and Jetpack Compose.",
+        "Completed a capstone/final project while strengthening product development, portfolio readiness, and career development skills."
+      ],
+      "links": {
+        "certificate": "assets/docs/cert_bangkit.pdf",
+        "preview": "assets/images/cert_bangkit.png"
+      }
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "version": "1.1.0",
+    "last_updated": "2026-06-16",
+    "language": "id-ID",
+    "section_id": "project_lab",
+    "section_asset": "assets/building/building_project_lab.png"
+  },
+  "title": "Project Lab",
+  "description": "Area untuk menampilkan project utama yang pernah dibuat.",
+  "modal": {
+    "panel": "assets/ui/ui_modal_panel.png",
+    "button": "assets/ui/ui_button_default.png",
+    "close_button": "assets/ui/ui_close_button.png"
+  },
+  "items": [
+    {
+      "id": "goat_livestock_karangnongko",
+      "name": "Goat Livestock Karangnongko",
+      "category": "Community Service Project / Information System",
+      "status": "Completed",
+      "description": "Sistem informasi yang dibuat sebagai project KKN untuk membantu pengelolaan data kambing dan absensi harian kegiatan para peternak di Karangnongko.",
+      "problem": "Pengelolaan data kambing dan pencatatan kegiatan harian peternak membutuhkan sistem yang lebih rapi agar data lebih mudah dikontrol.",
+      "solution": "Membangun sistem informasi untuk mencatat, mengontrol, dan mengelola data kambing serta absensi harian kegiatan para peternak.",
+      "features": [
+        "Pengelolaan data kambing",
+        "Absensi harian kegiatan peternak",
+        "Kontrol data peternakan",
+        "Pendataan aktivitas peternak"
+      ],
+      "tech_stack": [],
+      "highlight": false,
+      "links": {
+        "demo": null,
+        "repository": null,
+        "documentation": null
+      }
+    },
+    {
+      "id": "crm_295_solution",
+      "name": "CRM 295 Solution",
+      "category": "Customer Relationship Management / Web System",
+      "status": "Completed",
+      "description": "Project CRM sederhana untuk tim sales dan marketing 295 Solution yang digunakan untuk mengontrol data client, pendataan quotation, progres sales, dan report bisnis secara keseluruhan.",
+      "problem": "Tim sales dan marketing membutuhkan sistem untuk mengelola data client, quotation, progres penawaran, serta laporan yang berhubungan dengan HPP project dan penawaran project.",
+      "solution": "Membangun sistem CRM sederhana yang membantu tim sales dan marketing dalam mengontrol data client, memantau quotation, melihat progres sales, dan membaca report bulanan berdasarkan data yang diperlukan.",
+      "features": [
+        "Kontrol data client 295 Solution",
+        "Pendataan quotation",
+        "Monitoring progres sales",
+        "Report HPP project",
+        "Report penawaran project",
+        "Report bulanan"
+      ],
+      "tech_stack": [],
+      "highlight": true,
+      "links": {
+        "demo": null,
+        "repository": null,
+        "documentation": null
+      }
+    },
+    {
+      "id": "acm_295_solution",
+      "name": "ACM 295 Solution",
+      "category": "Asset & CCTV Maintenance Control / Web System",
+      "status": "Completed",
+      "description": "Project yang digunakan untuk kebutuhan tim NOC dalam mengontrol data CCTV client besar, terutama client dengan banyak site CCTV yang dikelola oleh 295 Solution.",
+      "problem": "Tim NOC membutuhkan sistem untuk memantau kondisi site CCTV client, mencatat site yang sedang down, mengontrol maintenance, dan menyimpan detail teknis seperti IP publik, IP router, dan informasi site lainnya.",
+      "solution": "Membangun sistem ACM untuk membantu tim NOC mengontrol data CCTV client, mencatat status down atau maintenance, menyimpan detail teknis setiap site, serta memungkinkan client melihat status maintenance site.",
+      "features": [
+        "Kontrol data CCTV client",
+        "Monitoring site CCTV",
+        "Pencatatan site down",
+        "Kontrol data maintenance",
+        "Detail IP publik",
+        "Detail IP router",
+        "Informasi teknis site",
+        "Client view untuk status maintenance"
+      ],
+      "tech_stack": [],
+      "highlight": true,
+      "links": {
+        "demo": null,
+        "repository": null,
+        "documentation": null
+      }
+    },
+    {
+      "id": "thesis_ddl_optimizer",
+      "name": "DDL MySQL Optimization System",
+      "category": "Final Project / Web System",
+      "status": "Finalized",
+      "description": "Sistem web untuk menganalisis Data Definition Language MySQL, menghasilkan rekomendasi terstruktur menggunakan Gemini API, mendukung review accept/reject, menampilkan SQL diff, melakukan finalisasi SQL optimized, serta validasi melalui Docker Sandbox.",
+      "problem": "Review DDL secara manual menggunakan chatbot umum masih tidak terstruktur, sulit ditelusuri, dan tidak memiliki validasi otomatis.",
+      "solution": "Sistem membungkus analisis AI ke dalam workflow yang lebih terkontrol: upload DDL, sanitasi, analisis Gemini, rekomendasi terstruktur, review suggestion, SQL diff, finalisasi, validasi sandbox, dan download SQL optimized.",
+      "features": [
+        "Upload DDL MySQL",
+        "Sanitasi input SQL",
+        "Analisis Gemini API",
+        "Rekomendasi optimasi terstruktur",
+        "Review accept/reject suggestion",
+        "SQL diff preview",
+        "Finalisasi SQL optimized",
+        "Docker Sandbox validation",
+        "AI self-correction",
+        "Download optimized SQL"
+      ],
+      "tech_stack": [
+        "Web",
+        "Backend API",
+        "Worker Queue",
+        "Redis",
+        "Docker Sandbox",
+        "Gemini API",
+        "MySQL DDL"
+      ],
+      "highlight": true,
+      "links": {
+        "demo": null,
+        "repository": null,
+        "documentation": null
+      }
+    },
+    {
+      "id": "usstuck",
+      "name": "UsStuck",
+      "category": "Web Chatbot / Edutech",
+      "status": "Competition Project",
+      "description": "Web-based Islamic Q&A chatbot yang dirancang untuk membantu Gen Z bertanya tentang Islam melalui interface privat, nyaman, dan tidak menghakimi.",
+      "problem": "Sebagian pengguna merasa sungkan atau tidak nyaman bertanya langsung kepada ustadz, terutama untuk pertanyaan sensitif atau terasa nyeleneh seputar tauhid dan fiqh.",
+      "solution": "Membangun chatbot berbasis web sebagai lapisan awal yang lebih approachable untuk membantu pengguna mengajukan pertanyaan agama Islam secara lebih nyaman.",
+      "features": [
+        "Islamic Q&A chatbot",
+        "Private question interface",
+        "User-friendly religious learning experience",
+        "Focused on Gen Z users",
+        "Edutech and future learning concept"
+      ],
+      "achievement": "3rd Winner - Mini Hackathon: Tech For Ummah, KI-PTKIN 2025",
+      "tech_stack": [
+        "Web",
+        "Chatbot",
+        "UI/UX"
+      ],
+      "highlight": true,
+      "links": {
+        "demo": null,
+        "repository": null,
+        "documentation": null
+      }
+    }
+  ]
+}

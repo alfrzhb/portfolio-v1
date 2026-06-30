@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "version": "1.1.0",
+    "last_updated": "2026-06-16",
+    "language": "id-ID",
+    "section_id": "contact_corner",
+    "section_asset": "assets/building/building_contact_gate.png",
+    "accuracy_note": "Contact values are based on user-provided links and email."
+  },
+  "title": "Contact Corner",
+  "description": "Area untuk menampilkan kontak, tautan profesional, dan akses CV.",
+  "interaction": {
+    "prompt_asset": "assets/ui/interaction_interact.png",
+    "modal_panel": "assets/ui/ui_modal_panel.png",
+    "button_asset": "assets/ui/ui_button_default.png",
+    "close_button": "assets/ui/ui_close_button.png"
+  },
+  "items": [
+    {
+      "id": "email",
+      "label": "Email",
+      "value": "m.alfarizihabibullah@gmail.com",
+      "display_value": "m.alfarizihabibullah@gmail.com",
+      "href": "mailto:m.alfarizihabibullah@gmail.com",
+      "icon": "assets/icons/icon_email_pixel.png",
+      "type": "email",
+      "action": "open_mail_client"
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "value": "https://github.com/alfrzhb",
+      "display_value": "github.com/alfrzhb",
+      "href": "https://github.com/alfrzhb",
+      "icon": "assets/icons/icon_github_pixel.png",
+      "type": "url",
+      "action": "open_new_tab"
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "value": "https://www.linkedin.com/in/m-alfarizi-habibullah/",
+      "display_value": "linkedin.com/in/m-alfarizi-habibullah",
+      "href": "https://www.linkedin.com/in/m-alfarizi-habibullah/",
+      "icon": "assets/icons/icon_linkedin_pixel.png",
+      "type": "url",
+      "action": "open_new_tab"
+    },
+    {
+      "id": "instagram",
+      "label": "Instagram",
+      "value": "https://www.instagram.com/alfrzhb",
+      "display_value": "instagram.com/alfrzhb",
+      "href": "https://www.instagram.com/alfrzhb",
+      "icon": "assets/icons/icon_instagram_pixel.png",
+      "type": "url",
+      "action": "open_new_tab"
+    },
+    {
+      "id": "cv",
+      "label": "CV",
+      "value": "assets/docs/cv_muhammad_alfarizi_habibullah.pdf",
+      "display_value": "View / Download CV",
+      "href": "assets/docs/cv_muhammad_alfarizi_habibullah.pdf",
+      "icon": "assets/icons/icon_cv_pixel.png",
+      "type": "file",
+      "action": "open_cv_scroll_modal",
+      "data_source": "assets/data/cv.json",
+      "download": true,
+      "download_filename": "CV_Muhammad_Alfarizi_Habibullah.pdf",
+      "viewer_mode": "scroll_summary_with_pdf_actions",
+      "fallback_action": "open_pdf_new_tab"
+    }
+  ]
+}

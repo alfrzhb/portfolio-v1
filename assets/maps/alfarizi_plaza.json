@@ -1,0 +1,436 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "last_updated": "2026-06-16",
+    "language": "id-ID",
+    "map_id": "alfarizi_plaza",
+    "map_name": "Alfarizi Plaza",
+    "description": "Main interactive pixel portfolio map. Buildings are not enterable; all portfolio sections open through interaction modals."
+  },
+  "settings": {
+    "world_width": 1600,
+    "world_height": 900,
+    "tile_size": 32,
+    "camera_zoom": 1.8,
+    "camera_follow_speed": 7,
+    "render_mode": "pixel_art",
+    "camera_mode": "fixed",
+    "sort_mode": "y_sort",
+    "background_color": "#7DBB5A",
+    "interaction_key": "F"
+  },
+  "player": {
+    "id": "player",
+    "label": "Player",
+    "asset": "assets/characters/player/player_spritesheet.png",
+    "spawn": {
+      "x": 800,
+      "y": 430
+    },
+    "size": {
+      "width": 48,
+      "height": 64
+    },
+    "anchor": "bottom_center",
+    "movement": {
+      "speed": 3.2,
+      "keys": {
+        "up": "W",
+        "left": "A",
+        "down": "S",
+        "right": "D"
+      }
+    }
+  },
+  "tilesets": [
+    {
+      "id": "tileset_plaza_basic",
+      "asset": "assets/tilesets/tileset_plaza_basic.png",
+      "tile_width": 32,
+      "tile_height": 32
+    }
+  ],
+  "layers": [
+    {
+      "id": "ground",
+      "name": "Ground",
+      "z_index": 0
+    },
+    {
+      "id": "ground_object",
+      "name": "Ground Object",
+      "z_index": 1
+    },
+    {
+      "id": "building",
+      "name": "Building and Section Object",
+      "z_index": 2
+    },
+    {
+      "id": "object",
+      "name": "Interactive Object",
+      "z_index": 3
+    },
+    {
+      "id": "npc",
+      "name": "NPC",
+      "z_index": 4
+    },
+    {
+      "id": "player",
+      "name": "Player",
+      "z_index": 5
+    },
+    {
+      "id": "ui",
+      "name": "User Interface",
+      "z_index": 10
+    }
+  ],
+  "objects": [
+    {
+      "id": "building_project_lab",
+      "label": "Project Lab",
+      "type": "building",
+      "asset": "assets/building/building_project_lab.png",
+      "position": {
+        "x": 250,
+        "y": 310
+      },
+      "size": {
+        "width": 330,
+        "height": 250
+      },
+      "preserve_aspect": true,
+      "anchor": "bottom_center",
+      "layer": "building",
+      "interaction_id": "interact_project_lab",
+      "visible": true
+    },
+    {
+      "id": "building_skill_center",
+      "label": "Skill Center",
+      "type": "building",
+      "asset": "assets/building/building_skill_center.png",
+      "position": {
+        "x": 1350,
+        "y": 310
+      },
+      "size": {
+        "width": 330,
+        "height": 250
+      },
+      "preserve_aspect": true,
+      "anchor": "bottom_center",
+      "layer": "building",
+      "interaction_id": "interact_skill_center",
+      "visible": true
+    },
+    {
+      "id": "building_campus_hall",
+      "label": "Campus Hall",
+      "type": "building",
+      "asset": "assets/building/building_campus_hall.png",
+      "position": {
+        "x": 370,
+        "y": 590
+      },
+      "size": {
+        "width": 330,
+        "height": 250
+      },
+      "preserve_aspect": true,
+      "anchor": "bottom_center",
+      "layer": "building",
+      "interaction_id": "interact_campus_hall",
+      "visible": true
+    },
+    {
+      "id": "building_career_office",
+      "label": "Career Office",
+      "type": "building",
+      "asset": "assets/building/building_career_office.png",
+      "position": {
+        "x": 1230,
+        "y": 590
+      },
+      "size": {
+        "width": 330,
+        "height": 250
+      },
+      "preserve_aspect": true,
+      "anchor": "bottom_center",
+      "layer": "building",
+      "interaction_id": "interact_career_office",
+      "visible": true
+    },
+    {
+      "id": "building_organization_base",
+      "label": "Organization Base",
+      "type": "building",
+      "asset": "assets/building/building_organization_base.png",
+      "position": {
+        "x": 370,
+        "y": 810
+      },
+      "size": {
+        "width": 330,
+        "height": 230
+      },
+      "preserve_aspect": true,
+      "anchor": "bottom_center",
+      "layer": "building",
+      "interaction_id": "interact_organization_base",
+      "visible": true
+    },
+    {
+      "id": "building_achievement_arena",
+      "label": "Achievement Arena",
+      "type": "showcase",
+      "asset": "assets/building/building_achievement_arena.png",
+      "position": {
+        "x": 1230,
+        "y": 810
+      },
+      "size": {
+        "width": 330,
+        "height": 230
+      },
+      "preserve_aspect": true,
+      "anchor": "bottom_center",
+      "layer": "building",
+      "interaction_id": "interact_achievement_arena",
+      "visible": true
+    },
+    {
+      "id": "building_contact_gate",
+      "label": "Contact Corner",
+      "type": "contact_object",
+      "asset": "assets/building/building_contact_gate.png",
+      "position": {
+        "x": 800,
+        "y": 875
+      },
+      "size": {
+        "width": 360,
+        "height": 180
+      },
+      "preserve_aspect": true,
+      "anchor": "bottom_center",
+      "layer": "building",
+      "interaction_id": "interact_contact_corner",
+      "visible": true
+    },
+    {
+      "id": "statue_alfarizi",
+      "label": "Statue of Alfarizi",
+      "type": "landmark",
+      "asset": "assets/objects/plaza/statue_alfarizi.png",
+      "position": {
+        "x": 800,
+        "y": 275
+      },
+      "size": {
+        "width": 180,
+        "height": 250
+      },
+      "preserve_aspect": true,
+      "anchor": "bottom_center",
+      "layer": "object",
+      "interaction_id": "interact_statue_alfarizi",
+      "visible": true
+    },
+    {
+      "id": "prasasti_alfarizi",
+      "label": "Prasasti Alfarizi",
+      "type": "readable_object",
+      "asset": "assets/objects/prasasti/prasasti_alfarizi.png",
+      "position": {
+        "x": 800,
+        "y": 350
+      },
+      "size": {
+        "width": 95,
+        "height": 95
+      },
+      "anchor": "bottom_center",
+      "layer": "object",
+      "interaction_id": "interact_prasasti_alfarizi",
+      "visible": true
+    },
+    {
+      "id": "spawn_marker",
+      "label": "Player Spawn",
+      "type": "marker",
+      "asset": "assets/objects/plaza/spawn_marker.png",
+      "position": {
+        "x": 800,
+        "y": 430
+      },
+      "size": {
+        "width": 90,
+        "height": 55
+      },
+      "anchor": "center",
+      "layer": "ground_object",
+      "visible": true
+    },
+    {
+      "id": "object_cv_scroll",
+      "label": "CV Scroll",
+      "type": "ui_object",
+      "asset": "assets/objects/contact_gate/object_cv_scroll.png",
+      "position": {
+        "x": 800,
+        "y": 830
+      },
+      "size": {
+        "width": 96,
+        "height": 128
+      },
+      "anchor": "bottom_center",
+      "layer": "object",
+      "visible": false
+    },
+    {
+      "id": "npc_father",
+      "label": "Father",
+      "type": "npc",
+      "asset": "assets/characters/npc/npc_father.png",
+      "position": {
+        "x": 535,
+        "y": 215
+      },
+      "size": {
+        "width": 52,
+        "height": 88
+      },
+      "preserve_aspect": true,
+      "aspect_width_scale": 1.12,
+      "anchor": "bottom_center",
+      "layer": "npc",
+      "interaction_id": "talk_father",
+      "visible": true
+    },
+    {
+      "id": "npc_mother_hijab",
+      "label": "Mother",
+      "type": "npc",
+      "asset": "assets/characters/npc/npc_mother_hijab.png",
+      "position": {
+        "x": 585,
+        "y": 215
+      },
+      "size": {
+        "width": 54,
+        "height": 89
+      },
+      "preserve_aspect": true,
+      "aspect_width_scale": 1.04,
+      "anchor": "bottom_center",
+      "layer": "npc",
+      "interaction_id": "talk_mother_hijab",
+      "visible": true
+    },
+    {
+      "id": "npc_pak_nurrochman",
+      "label": "Pak Nurrochman",
+      "type": "npc",
+      "asset": "assets/characters/npc/npc_pak_nurrochman.png",
+      "position": {
+        "x": 1070,
+        "y": 225
+      },
+      "size": {
+        "width": 54,
+        "height": 91
+      },
+      "preserve_aspect": true,
+      "aspect_width_scale": 1.1,
+      "anchor": "bottom_center",
+      "layer": "npc",
+      "interaction_id": "talk_pak_nurrochman",
+      "visible": true
+    },
+    {
+      "id": "npc_older_brother",
+      "label": "Older Brother",
+      "type": "npc",
+      "asset": "assets/characters/npc/npc_older_brother.png",
+      "position": {
+        "x": 610,
+        "y": 360
+      },
+      "size": {
+        "width": 50,
+        "height": 87
+      },
+      "preserve_aspect": true,
+      "aspect_width_scale": 1.12,
+      "anchor": "bottom_center",
+      "layer": "npc",
+      "interaction_id": "talk_older_brother",
+      "visible": true
+    },
+    {
+      "id": "npc_zhafran",
+      "label": "Zhafran",
+      "type": "npc",
+      "asset": "assets/characters/npc/npc_zhafran.png",
+      "position": {
+        "x": 705,
+        "y": 435
+      },
+      "size": {
+        "width": 46,
+        "height": 83
+      },
+      "preserve_aspect": true,
+      "aspect_width_scale": 1.1,
+      "anchor": "bottom_center",
+      "layer": "npc",
+      "interaction_id": "talk_zhafran",
+      "visible": true
+    },
+    {
+      "id": "npc_thofa",
+      "label": "Thofa",
+      "type": "npc",
+      "asset": "assets/characters/npc/npc_thofa.png",
+      "position": {
+        "x": 765,
+        "y": 435
+      },
+      "size": {
+        "width": 48,
+        "height": 86
+      },
+      "preserve_aspect": true,
+      "aspect_width_scale": 1.16,
+      "anchor": "bottom_center",
+      "layer": "npc",
+      "interaction_id": "talk_thofa",
+      "visible": true
+    },
+    {
+      "id": "npc_girlfriend_hijab",
+      "label": "Girlfriend",
+      "type": "npc",
+      "asset": "assets/characters/npc/npc_girlfriend_hijab.png",
+      "position": {
+        "x": 990,
+        "y": 415
+      },
+      "size": {
+        "width": 50,
+        "height": 87
+      },
+      "preserve_aspect": true,
+      "aspect_width_scale": 1.08,
+      "anchor": "bottom_center",
+      "layer": "npc",
+      "interaction_id": "talk_girlfriend_hijab",
+      "visible": true
+    }
+  ]
+}

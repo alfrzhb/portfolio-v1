@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "last_updated": "2026-06-16",
+    "language": "id-ID",
+    "usage": "Dialog data for NPC interactions using assets/ui/ui_dialog_box.png and assets/ui/ui_dialog_nameplate.png."
+  },
+  "default_settings": {
+    "interaction_prompt": "assets/ui/interaction_talk.png",
+    "dialog_box": "assets/ui/ui_dialog_box.png",
+    "nameplate": "assets/ui/ui_dialog_nameplate.png",
+    "dialog_arrow": "assets/ui/ui_dialog_arrow.png",
+    "max_lines_per_page": 4
+  },
+  "npcs": {
+    "npc_father": {
+      "id": "npc_father",
+      "name": "Father",
+      "asset": "assets/characters/npc/npc_father.png",
+      "role": "Parent",
+      "dialogues": [
+        "Selamat datang di Alfarizi Plaza.",
+        "Setiap perjalanan besar dimulai dari langkah kecil yang dikerjakan dengan konsisten.",
+        "Jangan hanya mengejar hasil akhir. Pastikan prosesnya rapi, terarah, dan bisa dipertanggungjawabkan."
+      ]
+    },
+    "npc_mother_hijab": {
+      "id": "npc_mother_hijab",
+      "name": "Mother",
+      "asset": "assets/characters/npc/npc_mother_hijab.png",
+      "role": "Parent",
+      "dialogues": [
+        "Jaga semangat, tetap rendah hati, dan jangan lupa istirahat.",
+        "Setiap proses yang kamu jalani akan membentuk dirimu.",
+        "Kalau sudah sampai di sini, lanjutkan pelan-pelan tapi jangan berhenti."
+      ]
+    },
+    "npc_older_brother": {
+      "id": "npc_older_brother",
+      "name": "Older Brother",
+      "asset": "assets/characters/npc/npc_older_brother.png",
+      "role": "Family",
+      "dialogues": [
+        "Portfolio ini sudah mulai kelihatan hidup.",
+        "Buat pengunjung langsung paham: siapa kamu, apa skill-mu, dan project apa yang pernah kamu buat.",
+        "Jangan terlalu ramai. Yang penting jelas, rapi, dan enak dijelajahi."
+      ]
+    },
+    "npc_girlfriend_hijab": {
+      "id": "npc_girlfriend_hijab",
+      "name": "Girlfriend",
+      "asset": "assets/characters/npc/npc_girlfriend_hijab.png",
+      "role": "Personal Circle",
+      "dialogues": [
+        "Aku suka konsep plaza ini. Rasanya personal tapi tetap profesional.",
+        "Jangan lupa bikin tiap area punya cerita, bukan cuma gambar.",
+        "Project bagus itu bukan hanya tampilannya, tapi juga pengalaman orang saat memakainya."
+      ]
+    },
+    "npc_pak_nurrochman": {
+      "id": "npc_pak_nurrochman",
+      "name": "Pak Nurrochman",
+      "asset": "assets/characters/npc/npc_pak_nurrochman.png",
+      "role": "Thesis Advisor",
+      "dialogues": [
+        "Fokus pada kualitas sistem dan pastikan setiap fitur dapat dijelaskan dengan baik.",
+        "Optimasi yang kamu bahas harus jelas: apa yang dioptimasi, bagaimana prosesnya, dan bagaimana hasilnya divalidasi.",
+        "Sistem yang baik bukan hanya berjalan, tetapi juga memiliki alur yang terstruktur dan dapat diuji."
+      ]
+    },
+    "npc_zhafran": {
+      "id": "npc_zhafran",
+      "name": "Zhafran",
+      "asset": "assets/characters/npc/npc_zhafran.png",
+      "role": "Friend",
+      "dialogues": [
+        "Area ini cocok jadi tempat diskusi ide dan progress.",
+        "Kalau mau portfolio terlihat kuat, tampilkan project yang benar-benar punya konteks masalah dan solusi.",
+        "Jangan lupa, detail kecil di UI bisa bikin pengalaman game terasa lebih matang."
+      ]
+    },
+    "npc_thofa": {
+      "id": "npc_thofa",
+      "name": "Thofa",
+      "asset": "assets/characters/npc/npc_thofa.png",
+      "role": "Friend",
+      "dialogues": [
+        "DevOps bukan cuma soal deploy, tapi juga memastikan sistem bisa jalan stabil.",
+        "Kalau portfolio ini nanti online, pikirkan juga struktur folder, asset loading, dan performa halaman.",
+        "Bikin ringan, responsif, dan mudah dipelihara."
+      ]
+    }
+  }
+}

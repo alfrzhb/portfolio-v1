@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "version": "2.0.0",
+    "last_updated": "2026-06-18",
+    "language": "id-ID",
+    "map_id": "alfarizi_plaza",
+    "description": "Non-interactive visual decorations for Alfarizi Plaza. No collision or interaction is defined here."
+  },
+  "settings": {
+    "world_width": 1600,
+    "world_height": 900
+  },
+  "assets": {
+    "bush_small": "assets/objects/bushes.png",
+    "tree": "assets/objects/tree.png",
+    "lamp": "assets/objects/lamp.png",
+    "fence": "assets/objects/fence.png",
+    "bench": "assets/objects/bench.png",
+    "pillar": "assets/objects/pilar.png"
+  },
+  "decorations": [
+    {
+      "id": "bush_contact_left",
+      "type": "bush",
+      "decor": "bush_small",
+      "x": 585,
+      "y": 855,
+      "width": 56,
+      "height": 56,
+      "anchor": "bottom_center",
+      "layer": "object",
+      "visible": true
+    },
+    {
+      "id": "bush_contact_right",
+      "type": "bush",
+      "decor": "bush_small",
+      "x": 1015,
+      "y": 855,
+      "width": 56,
+      "height": 56,
+      "anchor": "bottom_center",
+      "layer": "object",
+      "visible": true
+    },
+    {
+      "id": "lamp_upper_left_path",
+      "type": "lamp",
+      "decor": "lamp",
+      "x": 690,
+      "y": 360,
+      "width": 36,
+      "height": 116,
+      "anchor": "bottom_center",
+      "layer": "object",
+      "visible": true
+    },
+    {
+      "id": "lamp_upper_right_path",
+      "type": "lamp",
+      "decor": "lamp",
+      "x": 910,
+      "y": 360,
+      "width": 36,
+      "height": 116,
+      "anchor": "bottom_center",
+      "layer": "object",
+      "visible": true
+    },
+    {
+      "id": "lamp_lower_left_path",
+      "type": "lamp",
+      "decor": "lamp",
+      "x": 690,
+      "y": 660,
+      "width": 36,
+      "height": 116,
+      "anchor": "bottom_center",
+      "layer": "object",
+      "visible": true
+    },
+    {
+      "id": "lamp_lower_right_path",
+      "type": "lamp",
+      "decor": "lamp",
+      "x": 910,
+      "y": 660,
+      "width": 36,
+      "height": 116,
+      "anchor": "bottom_center",
+      "layer": "object",
+      "visible": true
+    },
+    {
+      "id": "bench_contact_left",
+      "type": "bench",
+      "decor": "bench",
+      "x": 590,
+      "y": 740,
+      "width": 140,
+      "height": 64,
+      "anchor": "bottom_center",
+      "layer": "object",
+      "visible": true
+    },
+    {
+      "id": "bench_contact_right",
+      "type": "bench",
+      "decor": "bench",
+      "x": 1010,
+      "y": 740,
+      "width": 140,
+      "height": 64,
+      "anchor": "bottom_center",
+      "layer": "object",
+      "visible": true
+    },
+    {
+      "id": "fence_top_left",
+      "type": "fence",
+      "decor": "fence",
+      "x": 560,
+      "y": 118,
+      "width": 120,
+      "height": 85,
+      "anchor": "bottom_center",
+      "layer": "object",
+      "visible": true
+    },
+    {
+      "id": "fence_top_right",
+      "type": "fence",
+      "decor": "fence",
+      "x": 1040,
+      "y": 118,
+      "width": 120,
+      "height": 85,
+      "anchor": "bottom_center",
+      "layer": "object",
+      "visible": true
+    },
+    {
+      "id": "tree_far_top_left",
+      "type": "tree",
+      "decor": "tree",
+      "x": 115,
+      "y": 155,
+      "width": 108,
+      "height": 115,
+      "anchor": "bottom_center",
+      "layer": "object",
+      "visible": true
+    },
+    {
+      "id": "tree_far_top_right",
+      "type": "tree",
+      "decor": "tree",
+      "x": 1485,
+      "y": 155,
+      "width": 108,
+      "height": 115,
+      "anchor": "bottom_center",
+      "layer": "object",
+      "visible": true
+    }
+  ]
+}

@@ -1,0 +1,519 @@
+{
+  "meta": {
+    "version": "2.2.2",
+    "last_updated": "2026-06-18",
+    "language": "id-ID",
+    "map_id": "alfarizi_plaza",
+    "description": "Minimal JSON-driven ground tile layer for Alfarizi Plaza."
+  },
+  "settings": {
+    "tile_size": 32,
+    "world_width": 1600,
+    "world_height": 900,
+    "grid_cols": 50,
+    "grid_rows": 29
+  },
+  "tile_sources": {
+    "tile_width": 32,
+    "tile_height": 32,
+    "tiles": {
+      "grass_light": {
+        "asset": "assets/objects/bright_grass.png",
+        "source": {
+          "x": 80,
+          "y": 80,
+          "width": 128,
+          "height": 128
+        }
+      },
+      "grass_dark": {
+        "asset": "assets/objects/dark_grass.png",
+        "source": {
+          "x": 86,
+          "y": 86,
+          "width": 128,
+          "height": 128
+        }
+      },
+      "stone_path": {
+        "asset": "assets/objects/tiles_rock.png",
+        "source": {
+          "x": 94,
+          "y": 94,
+          "width": 128,
+          "height": 128
+        }
+      },
+      "cobblestone": {
+        "asset": "assets/objects/rounded_tiles_rock.png",
+        "source": {
+          "x": 91,
+          "y": 91,
+          "width": 128,
+          "height": 128
+        }
+      },
+      "dirt": {
+        "asset": "assets/objects/dirt.png",
+        "source": {
+          "x": 91,
+          "y": 91,
+          "width": 128,
+          "height": 128
+        }
+      },
+      "rock_border_top": {
+        "asset": "assets/objects/tiles_rock.png",
+        "pixel_size": 32,
+        "background_asset": "assets/objects/bright_grass.png",
+        "background_source": {
+          "x": 80,
+          "y": 80,
+          "width": 128,
+          "height": 128
+        },
+        "border_edges": ["top"],
+        "border_thickness": 12,
+        "source": {
+          "x": 94,
+          "y": 94,
+          "width": 128,
+          "height": 128
+        }
+      },
+      "rock_border_bottom": {
+        "asset": "assets/objects/tiles_rock.png",
+        "pixel_size": 32,
+        "background_asset": "assets/objects/bright_grass.png",
+        "background_source": {
+          "x": 80,
+          "y": 80,
+          "width": 128,
+          "height": 128
+        },
+        "border_edges": ["bottom"],
+        "border_thickness": 12,
+        "source": {
+          "x": 94,
+          "y": 94,
+          "width": 128,
+          "height": 128
+        }
+      },
+      "rock_border_left": {
+        "asset": "assets/objects/tiles_rock.png",
+        "pixel_size": 32,
+        "background_asset": "assets/objects/bright_grass.png",
+        "background_source": {
+          "x": 80,
+          "y": 80,
+          "width": 128,
+          "height": 128
+        },
+        "border_edges": ["left"],
+        "border_thickness": 12,
+        "source": {
+          "x": 94,
+          "y": 94,
+          "width": 128,
+          "height": 128
+        }
+      },
+      "rock_border_right": {
+        "asset": "assets/objects/tiles_rock.png",
+        "pixel_size": 32,
+        "background_asset": "assets/objects/bright_grass.png",
+        "background_source": {
+          "x": 80,
+          "y": 80,
+          "width": 128,
+          "height": 128
+        },
+        "border_edges": ["right"],
+        "border_thickness": 12,
+        "source": {
+          "x": 94,
+          "y": 94,
+          "width": 128,
+          "height": 128
+        }
+      },
+      "rock_border_top_left": {
+        "asset": "assets/objects/tiles_rock.png",
+        "pixel_size": 32,
+        "background_asset": "assets/objects/bright_grass.png",
+        "background_source": {
+          "x": 80,
+          "y": 80,
+          "width": 128,
+          "height": 128
+        },
+        "border_edges": ["top", "left"],
+        "border_thickness": 12,
+        "source": {
+          "x": 94,
+          "y": 94,
+          "width": 128,
+          "height": 128
+        }
+      },
+      "rock_border_top_right": {
+        "asset": "assets/objects/tiles_rock.png",
+        "pixel_size": 32,
+        "background_asset": "assets/objects/bright_grass.png",
+        "background_source": {
+          "x": 80,
+          "y": 80,
+          "width": 128,
+          "height": 128
+        },
+        "border_edges": ["top", "right"],
+        "border_thickness": 12,
+        "source": {
+          "x": 94,
+          "y": 94,
+          "width": 128,
+          "height": 128
+        }
+      },
+      "rock_border_bottom_left": {
+        "asset": "assets/objects/tiles_rock.png",
+        "pixel_size": 32,
+        "background_asset": "assets/objects/bright_grass.png",
+        "background_source": {
+          "x": 80,
+          "y": 80,
+          "width": 128,
+          "height": 128
+        },
+        "border_edges": ["bottom", "left"],
+        "border_thickness": 12,
+        "source": {
+          "x": 94,
+          "y": 94,
+          "width": 128,
+          "height": 128
+        }
+      },
+      "rock_border_bottom_right": {
+        "asset": "assets/objects/tiles_rock.png",
+        "pixel_size": 32,
+        "background_asset": "assets/objects/bright_grass.png",
+        "background_source": {
+          "x": 80,
+          "y": 80,
+          "width": 128,
+          "height": 128
+        },
+        "border_edges": ["bottom", "right"],
+        "border_thickness": 12,
+        "source": {
+          "x": 94,
+          "y": 94,
+          "width": 128,
+          "height": 128
+        }
+      },
+      "flower_grass": {
+        "asset": "assets/objects/flower.png",
+        "source": {
+          "x": 96,
+          "y": 96,
+          "width": 128,
+          "height": 128
+        }
+      }
+    }
+  },
+  "layers": [
+    {
+      "id": "base_grass",
+      "type": "fill",
+      "tile": "grass_light"
+    },
+    {
+      "id": "grass_variation",
+      "type": "patches",
+      "tile": "grass_dark",
+      "patches": [
+        {
+          "x": 4,
+          "y": 3,
+          "width": 4,
+          "height": 3
+        },
+        {
+          "x": 40,
+          "y": 3,
+          "width": 5,
+          "height": 3
+        },
+        {
+          "x": 3,
+          "y": 20,
+          "width": 5,
+          "height": 4
+        },
+        {
+          "x": 41,
+          "y": 20,
+          "width": 5,
+          "height": 4
+        },
+        {
+          "x": 13,
+          "y": 6,
+          "width": 3,
+          "height": 2
+        },
+        {
+          "x": 34,
+          "y": 17,
+          "width": 3,
+          "height": 3
+        },
+        {
+          "x": 14,
+          "y": 21,
+          "width": 4,
+          "height": 3
+        },
+        {
+          "x": 32,
+          "y": 5,
+          "width": 4,
+          "height": 3
+        }
+      ]
+    },
+    {
+      "id": "dirt_courtyards",
+      "type": "rects",
+      "tile": "dirt",
+      "rects": [
+        {
+          "x": 18,
+          "y": 3,
+          "width": 5,
+          "height": 5
+        },
+        {
+          "x": 27,
+          "y": 3,
+          "width": 5,
+          "height": 5
+        },
+        {
+          "x": 18,
+          "y": 20,
+          "width": 5,
+          "height": 5
+        },
+        {
+          "x": 27,
+          "y": 20,
+          "width": 5,
+          "height": 5
+        }
+      ]
+    },
+    {
+      "id": "main_horizontal_path",
+      "type": "rects",
+      "tile": "stone_path",
+      "rects": [
+        {
+          "x": 0,
+          "y": 12,
+          "width": 50,
+          "height": 4
+        }
+      ]
+    },
+    {
+      "id": "main_vertical_path",
+      "type": "rects",
+      "tile": "stone_path",
+      "rects": [
+        {
+          "x": 23,
+          "y": 0,
+          "width": 4,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "id": "spawn_plaza_center",
+      "type": "rects",
+      "tile": "cobblestone",
+      "rects": [
+        {
+          "x": 23,
+          "y": 12,
+          "width": 4,
+          "height": 4
+        }
+      ]
+    },
+    {
+      "id": "rock_path_border_above",
+      "type": "rects",
+      "tile": "rock_border_bottom",
+      "rects": [
+        {
+          "x": 0,
+          "y": 11,
+          "width": 22,
+          "height": 1
+        },
+        {
+          "x": 28,
+          "y": 11,
+          "width": 22,
+          "height": 1
+        }
+      ]
+    },
+    {
+      "id": "rock_path_border_below",
+      "type": "rects",
+      "tile": "rock_border_top",
+      "rects": [
+        {
+          "x": 0,
+          "y": 16,
+          "width": 22,
+          "height": 1
+        },
+        {
+          "x": 28,
+          "y": 16,
+          "width": 22,
+          "height": 1
+        }
+      ]
+    },
+    {
+      "id": "rock_path_border_left",
+      "type": "rects",
+      "tile": "rock_border_right",
+      "rects": [
+        {
+          "x": 22,
+          "y": 0,
+          "width": 1,
+          "height": 11
+        },
+        {
+          "x": 22,
+          "y": 17,
+          "width": 1,
+          "height": 12
+        }
+      ]
+    },
+    {
+      "id": "rock_path_border_right",
+      "type": "rects",
+      "tile": "rock_border_left",
+      "rects": [
+        {
+          "x": 27,
+          "y": 0,
+          "width": 1,
+          "height": 11
+        },
+        {
+          "x": 27,
+          "y": 17,
+          "width": 1,
+          "height": 12
+        }
+      ]
+    },
+    {
+      "id": "rock_path_border_corners",
+      "type": "patches",
+      "tile": "rock_border_bottom_right",
+      "patches": [
+        {
+          "x": 22,
+          "y": 11,
+          "width": 1,
+          "height": 1
+        }
+      ]
+    },
+    {
+      "id": "rock_path_border_corner_top_right",
+      "type": "patches",
+      "tile": "rock_border_bottom_left",
+      "patches": [
+        {
+          "x": 27,
+          "y": 11,
+          "width": 1,
+          "height": 1
+        }
+      ]
+    },
+    {
+      "id": "rock_path_border_corner_bottom_left",
+      "type": "patches",
+      "tile": "rock_border_top_right",
+      "patches": [
+        {
+          "x": 22,
+          "y": 16,
+          "width": 1,
+          "height": 1
+        }
+      ]
+    },
+    {
+      "id": "rock_path_border_corner_bottom_right",
+      "type": "patches",
+      "tile": "rock_border_top_left",
+      "patches": [
+        {
+          "x": 27,
+          "y": 16,
+          "width": 1,
+          "height": 1
+        }
+      ]
+    },
+    {
+      "id": "flower_accents",
+      "type": "patches",
+      "tile": "flower_grass",
+      "patches": [
+        {
+          "x": 5,
+          "y": 5,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "x": 43,
+          "y": 5,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "x": 6,
+          "y": 23,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "x": 42,
+          "y": 23,
+          "width": 1,
+          "height": 1
+        }
+      ]
+    }
+  ]
+}

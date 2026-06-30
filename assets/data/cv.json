@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "version": "1.0.1",
+    "last_updated": "2026-06-16",
+    "language": "en-US",
+    "source_file": "assets/docs/cv_muhammad_alfarizi_habibullah.pdf",
+    "display_mode": "pixel_scroll_cv",
+    "source_note": "Structured from the uploaded CV PDF."
+  },
+  "ui": {
+    "title": "CV Scroll",
+    "subtitle": "Muhammad Alfarizi Habibullah",
+    "theme": "old_rpg_scroll",
+    "preferred_asset": "assets/objects/contact_gate/object_cv_scroll.png",
+    "modal_panel": "assets/ui/ui_modal_panel.png",
+    "close_button": "assets/ui/ui_close_button.png",
+    "primary_buttons": [
+      {
+        "id": "view_full_cv",
+        "label": "View Full CV",
+        "action": "open_pdf_new_tab",
+        "href": "assets/docs/cv_muhammad_alfarizi_habibullah.pdf"
+      },
+      {
+        "id": "download_cv",
+        "label": "Download CV",
+        "action": "download_file",
+        "href": "assets/docs/cv_muhammad_alfarizi_habibullah.pdf",
+        "download_filename": "CV_Muhammad_Alfarizi_Habibullah.pdf"
+      }
+    ]
+  },
+  "personal": {
+    "full_name": "Muhammad Alfarizi Habibullah",
+    "location": "Sleman, Yogyakarta 55281",
+    "phone": "+62 812 1268 4824",
+    "email": "m.alfarizihabibullah@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/m-alfarizi-habibullah/",
+    "github": "https://github.com/alfrzhb"
+  },
+  "profile": {
+    "title": "Personal Profile",
+    "summary": "Final-year Informatics student at UIN Sunan Kalijaga with hands-on experience in web, mobile, and system support. Skilled in Kotlin, JavaScript, TypeScript, React.js, Next.js, Laravel, Android development, WordPress maintenance, and RESTful API integration. Interested in building user-centered digital products as a Full Stack or Mobile Developer.",
+    "short_summary": "Final-year Informatics student focused on web, mobile, system support, and user-centered digital products."
+  },
+  "skills": {
+    "title": "Skills",
+    "groups": [
+      {
+        "category": "Programming & Web",
+        "items": [
+          "Kotlin",
+          "JavaScript",
+          "TypeScript",
+          "HTML",
+          "CSS",
+          "React.js",
+          "Next.js",
+          "Laravel",
+          "WordPress",
+          "Flask API"
+        ]
+      },
+      {
+        "category": "Mobile Development",
+        "items": [
+          "Android Studio",
+          "MVVM",
+          "Clean Architecture",
+          "Jetpack Compose",
+          "Firebase"
+        ]
+      },
+      {
+        "category": "Tools & Workflow",
+        "items": [
+          "Git",
+          "GitHub",
+          "VSCode",
+          "Vite",
+          "Webpack",
+          "RESTful API Integration",
+          "C# Requirement Analysis"
+        ]
+      }
+    ]
+  },
+  "professional_experience": {
+    "title": "Professional Experience",
+    "items": [
+      {
+        "id": "295_solution_intern_programmer",
+        "company": "295 Solution",
+        "role": "Intern Programmer",
+        "period": "Nov 2025 - Apr 2026",
+        "highlights": [
+          "Improved and maintained the company WordPress website by updating page structure, visual presentation, and content/UI quality.",
+          "Supported requirement analysis and development planning for internal CRM & ACM systems and a C#-based gate parking system."
+        ]
+      },
+      {
+        "id": "wesclic_web_developer_intern",
+        "company": "Wesclic",
+        "role": "Web Developer Intern",
+        "period": "Aug 2025 - Nov 2025",
+        "highlights": [
+          "Fixed bugs in Next.js and React.js applications within an Agile Scrum development workflow.",
+          "Implemented responsive UI designs into Laravel-based web pages."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "id": "uin_sunan_kalijaga_s1_informatics",
+        "institution": "UIN Sunan Kalijaga Yogyakarta",
+        "program": "S1 Informatics",
+        "period": "2022 - 2026",
+        "gpa": "3.73/4.00",
+        "highlights": [
+          "Built a foundation in operating systems, computer security, artificial intelligence, algorithm theory, programming, and database design.",
+          "Completed academic software projects involving software development, database modeling, and human-computer interaction.",
+          "Developed a web-based thesis project for MySQL DDL optimization using Gemini API, featuring structured schema analysis, AI-generated recommendations, suggestion review, SQL diff preview, Docker Sandbox validation, AI self-correction, and downloadable optimized SQL output."
+        ]
+      },
+      {
+        "id": "coding_camp_dbs_fullstack",
+        "institution": "Coding Camp powered by DBS Foundation",
+        "program": "Front-End & Back-End Developer",
+        "period": "Feb 2025 - Jul 2025",
+        "certificate_label": "View Certificate",
+        "certificate_url": "assets/docs/cert_coding_camp.pdf",
+        "certificate_preview": "assets/images/cert_coding_camp.png",
+        "highlights": [
+          "Completed a full-stack web development learning path covering HTML, CSS, JavaScript, Git/GitHub, Node.js, RESTful APIs, and Web APIs.",
+          "Built responsive front-end applications using browser storage, asynchronous JavaScript, accessibility principles, PWA concepts, and deployment workflows.",
+          "Developed back-end applications in the form of RESTful APIs and completed a capstone project applying integrated front-end/back-end development practices."
+        ]
+      },
+      {
+        "id": "bangkit_mobile_development",
+        "institution": "Bangkit led by Google",
+        "program": "Mobile Development Cohort",
+        "period": "Sep 2024 - Dec 2024",
+        "certificate_label": "View Certificate",
+        "certificate_url": "assets/docs/cert_bangkit.pdf",
+        "certificate_preview": "assets/images/cert_bangkit.png",
+        "highlights": [
+          "Completed the Mobile Development path covering Basic Kotlin, Beginner Android, Android Fundamental, Intermediate Android, AI, and Applied Machine Learning for Android Developer.",
+          "Built Android applications using Kotlin and Android Studio with Android components, UI, localization, background processing, media, sensors, location, database, testing, Firebase, and Jetpack Compose.",
+          "Completed a capstone/final project while strengthening product development, portfolio readiness, and career development skills."
+        ]
+      }
+    ]
+  },
+  "competition_experience": {
+    "title": "Competition Experience",
+    "items": [
+      {
+        "id": "mini_hackathon_tech_for_ummah_ki_ptkin_2025",
+        "award": "3rd Winner",
+        "event": "Mini Hackathon: Tech For Ummah, KI-PTKIN 2025",
+        "period": "Jul 2025",
+        "project": "UsStuck",
+        "certificate_label": "View Certificate",
+        "certificate_url": "assets/docs/tech_for_ummah_ki_ptkin_2025_certificate.pdf",
+        "certificate_preview": "assets/images/tech_for_ummah_ki_ptkin_2025_certificate.png",
+        "highlights": [
+          "Developed UsStuck, a web-based Islamic Q&A chatbot designed to help Gen Z users ask sensitive or socially uncomfortable questions about Islam in a private, non-judgmental interface.",
+          "Focused the project on edutech and future learning by reducing barriers to asking questions about tauhid and fiqh while presenting answers in a more approachable digital format."
+        ]
+      }
+    ]
+  },
+  "committee_experience": {
+    "title": "Committee Experience",
+    "items": [
+      {
+        "id": "hmit_co_leader",
+        "organization": "Himpunan Mahasiswa Informatika",
+        "role": "Co-leader of HMIT",
+        "period": "Jan 2024 - Jan 2025",
+        "image": "assets/images/hmps.png",
+        "highlights": [
+          "Coordinated cross-division activities and managed internal-external organizational communication.",
+          "Led team meetings, planned academic events, and represented the organization to faculty and partners."
+        ]
+      },
+      {
+        "id": "scit_leader",
+        "organization": "Study Club Informatika UIN Sunan Kalijaga",
+        "role": "Leader of SCIT",
+        "period": "Jan 2024 - Jan 2025",
+        "highlights": [
+          "Led a student technology learning community and organized weekly study sessions and coding workshops.",
+          "Facilitated peer collaboration through project-based learning and discussions on algorithms, web, and mobile development."
+        ]
+      }
+    ]
+  },
+  "scroll_preview": {
+    "sections": [
+      {
+        "heading": "Profile",
+        "body": "Final-year Informatics student focused on web, mobile, system support, and user-centered digital products."
+      },
+      {
+        "heading": "Core Skills",
+        "body": "Kotlin, JavaScript, TypeScript, React.js, Next.js, Laravel, Android, WordPress, RESTful API Integration."
+      },
+      {
+        "heading": "Experience",
+        "body": "Intern Programmer at 295 Solution and Web Developer Intern at Wesclic."
+      },
+      {
+        "heading": "Education",
+        "body": "S1 Informatics at UIN Sunan Kalijaga Yogyakarta, GPA 3.73/4.00."
+      },
+      {
+        "heading": "Highlight",
+        "body": "Developed a thesis project for MySQL DDL optimization using Gemini API and Docker Sandbox validation."
+      }
+    ]
+  }
+}

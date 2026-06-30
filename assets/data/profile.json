@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "last_updated": "2026-06-16",
+    "language": "id-ID",
+    "source_note": "Disusun dari informasi yang sudah diberikan pengguna dalam percakapan."
+  },
+  "identity": {
+    "full_name": "Muhammad Alfarizi Habibullah",
+    "display_name": "Alfarizi",
+    "nim": "22106050049",
+    "role_title": "Informatics Student & Mobile Developer",
+    "program": "Informatics",
+    "faculty": "Faculty of Science and Technology",
+    "university": "UIN Sunan Kalijaga Yogyakarta",
+    "gpa": "3.66 / 4.00",
+    "location_country": "Indonesia",
+    "primary_interest": "Mobile Development",
+    "main_stack_focus": [
+      "Kotlin",
+      "Android",
+      "Software Engineering",
+      "MySQL"
+    ]
+  },
+  "portfolio": {
+    "site_title": "Alfarizi Plaza",
+    "concept": "Interactive pixel-game portfolio with exploration and object/NPC interaction.",
+    "gameplay_summary": "Player explores Alfarizi Plaza, talks to NPCs, reads objects, and opens modal panels for portfolio sections.",
+    "interaction_key": "F",
+    "movement_keys": [
+      "W",
+      "A",
+      "S",
+      "D"
+    ],
+    "visual_style": "Retro pixel art inspired by old handheld RPG games."
+  },
+  "summary": "Undergraduate Informatics student with strong interest in mobile development, software engineering, and interactive web portfolio experiences. Focused on building user-friendly, structured, and scalable applications.",
+  "thesis": {
+    "title": "Rancang Bangun Sistem Optimasi Kinerja Data Definition Language (DDL) MySQL Berbasis API Gemini",
+    "focus": "A web-based system that helps analyze MySQL DDL, generate structured optimization suggestions, support review and finalization, and validate the resulting SQL through a Docker Sandbox workflow.",
+    "scope_note": "The system optimizes DDL structure and review workflow; it does not claim direct production runtime performance improvement."
+  }
+}
