@@ -1,0 +1,13 @@
+node_modules
+node_modules/**
+.git
+.git/**
+.wrangler
+.wrangler/**
+package.json
+bun.lock
+package-lock.json
+scripts
+scripts/**
+wrangler.jsonc
+plan.md
